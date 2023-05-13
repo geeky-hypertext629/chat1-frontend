@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+@media (max-aspect-ratio:7/10){
+
+    .JoinPage{
+        display: flex;
+        align-items: flex-start !important;
+        justify-content: center;
+    }
+    .joinContainer{
+        margin-top: 30vw !important;
+        width: 100% !important;
+        /* margin-top: 30vw !important; */
+    }
+    
+.JoinContainer > img{
+    width: 30vw !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.JoinContainer > h1{
+    font-size: 6vw !important;
+    font-family: "Roboto";
+    width:55vw !important;
+    border-bottom: 0.6vw solid white !important;
+    padding: 1vw !important;
+    box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#joinInput{
+    width:65vw !important;
+    padding: 4vw !important;
+    font-size: 5vw !important;
+    margin: 5vw !important;
+    
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.joinbtn{
+    width:65vw !important;
+    padding: 4vw !important;
+    box-sizing: border-box;
+    font-size: 5vw !important;
 }
-
-.App-link {
-  color: #61dafb;
+.chatContainer{
+    background-color: white; 
+    height: 100% !important;
+    width: 100% !important;
 }
+.header{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header > h2
+{
+    /* color: white; */
+    margin: 5vw !important;
+    font-size: 8vw !important;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.header img{
+margin: 6vw !important;
+transform: scale(2) !important;
+}
+.header img:hover{
+margin: 6vw !important;
+transform: scale(3.2) !important;
+}
+    .chatBox{
+        height: 80% !important;
+    }
+
+    .inputBox{
+        height: 10% !important;
+    }
+
+    #chatInput{
+        padding: 4vw !important;
+        font-size: 4vw !important;
+        outline: none;
+        border-top: 0.2vmax solid rgba(94, 60, 60, 0.532);
+    } 
+    .messageBox{
+
+        padding:3vw !important;
+        margin: 3vw !important;
+        border-radius: 1.5vw !important;
+        font-size: 3.7vw !important;
+    }  
 }
